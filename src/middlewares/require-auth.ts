@@ -3,7 +3,7 @@ import { BadRequestError } from "../errors/bad-request-error";
 import { NotAuthorizedError } from "../errors/not-authorized-error";
 import { ClientAttrs } from "../models/attributes/client";
 import { Client } from "../models/client";
-import hat from "hat";
+// import hat from "hat";
 
 export const requireAuth = async (
   req: Request,
@@ -14,7 +14,7 @@ export const requireAuth = async (
 
   const clients = await Client.find();
 
-  const key = hat();
+  // const key = hat();
 
   if (clients.length == 0) {
     const client = Client.build({
