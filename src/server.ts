@@ -5,7 +5,6 @@ import mongoose from "mongoose";
 import { NotFoundError } from "./errors/not-found-error";
 import { errorHandler } from "./middlewares/error-handler";
 import * as dotenv from "dotenv";
-// require("dotenv").config();
 import talkRoute from "./routes/talk";
 import attendeeRoute from "./routes/attendee";
 
