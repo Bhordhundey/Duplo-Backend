@@ -9,10 +9,14 @@ npm install
 ```
 
 **Add Environment variables To Root Folder**
-PORT=
-DATABASE_URI=
-SUPER_ADMIN_NAME=
-SUPER_ADMIN_KEY=
+
+# PORT=
+
+# DATABASE_URI=
+
+# SUPER_ADMIN_NAME=
+
+# SUPER_ADMIN_KEY=
 
 Note: SUPER_ADMIN_NAME and SUPER_ADMIN_KEY are used for Authorization to the API
 
